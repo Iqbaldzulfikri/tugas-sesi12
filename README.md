@@ -72,6 +72,7 @@ public class No_3 {
    package Sesi_12;
    
 public class No_4 {
+
         public static int findMax(int[] arr, int n) {
             if (n == 1) {
                 return arr[0];
