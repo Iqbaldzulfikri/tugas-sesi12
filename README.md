@@ -1,5 +1,7 @@
 package Sesi_12;
+
 public class No_1 {
+
     public static void reverse(int n) {
         for (int i = n; i >= 1; i--) {
             System.out.print(i);
@@ -14,9 +16,11 @@ public class No_1 {
 
 
 package Sesi_12;
+
 import java.util.Scanner;
 
 public class No_2 {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Masukkan kata atau kalimat: ");
@@ -45,7 +49,9 @@ public class No_2 {
 
 
 package Sesi_12;
+
 public class No_3 {
+
     public static boolean contains(int[] arr, int n, int target) {
         if (n == arr.length) {
             return false;
@@ -64,6 +70,7 @@ public class No_3 {
 
 
    package Sesi_12;
+   
 public class No_4 {
         public static int findMax(int[] arr, int n) {
             if (n == 1) {
@@ -82,7 +89,9 @@ public class No_4 {
 
 
   package Sesi_12;
+  
 public class No_5 {
+
     public static int sumOfThree(int n, int a, int b, int c ) {
         if (n==0) {
             return 0;
